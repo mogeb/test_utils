@@ -4,3 +4,6 @@ LIBS = -lunwind
 
 all:
 	$(CC) $(CFLAGS) -o main main.c $(LIBS)
+
+clean:
+	rm -f main
